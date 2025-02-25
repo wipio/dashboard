@@ -3,8 +3,8 @@ from supabase import create_client, Client
 import pandas as pd
 import plotly.express as px
 
-SUPABASE_URL = st.secrets('SUPABASE_URL')
-SUPABASE_KEY = st.secrets('SUPABASE_KEY')
+SUPABASE_URL = st.secretsst.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
 USERNAME = "admin"
 PASSWORD = "1234"
