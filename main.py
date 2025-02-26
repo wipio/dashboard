@@ -94,7 +94,7 @@ else:
 
         # Gráfico de Pizza (Cancelamentos) com legenda interna e sem barra lateral
         with col1:
-            st.markdown("<h2 style='color: #DC143C;'>Cancelamentos</h1>", unsafe_allow_html=True)
+            st.markdown("<h2 style='color: #DC143C;'>Situação</h1>", unsafe_allow_html=True)
             fig_pie_cancelamentos.update_traces(
                 textinfo='label+percent', 
                 insidetextorientation='radial',
